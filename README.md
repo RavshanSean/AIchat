@@ -1,4 +1,4 @@
-# AIChat – Anime Voice Chatbot 🎙️🤖
+# AIChat – Anime Voice Chatbot
 
 AIChat is a Python project that converts your speech to text, sends it to OpenAI’s GPT model,  
 and reads the AI response out loud. The chatbot speaks like an anime character  
