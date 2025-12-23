@@ -17,7 +17,7 @@
     #engine = pyttsx3.init()
     #engine.say(command) 
     #engine.runAndWait()
-    #didnt work find out why and fix the problem
+    #didnt work find out why and fix the problem later
     
     
  # STEP 1   
@@ -86,21 +86,20 @@ def anime_character_chat(user_speech_text):
     return str(ai_response)
 
 
-#####test 1
+#####test 1 working but voice is does not match to what i want 
 #def speak_text(text_in): 
     #engine = pyttsx3.init()
     #voices = engine.getProperty('voices') # getting detaile of curent voice 
-    #engine.setProperty('voice', voices[1].id) # changing index, changes voices. 1 for female and 0 male keep in mind 
+    #engine.setProperty('voice', voices[1].id) # if changing index, changes voices. 1 for female and 0 male keep in mind 
     #engine.say(text_in) 
     #engine.runAndWait()
 
 
-# test 2 voice
+# test 2 voice kind a close to what i want but not perfect but better then before ill keep for now
 def speak_text(text_in):
 
     engine = pyttsx3.init()
-    voices = engine.getProperty('voices')       # getting detaile of curent voice
-    #engine.setProperty('voice', voices[1].id)   # changing index, changes voices. 1 for female and 0 male keep in mind
+    voices = engine.getProperty('voices')
     
 #test for spacific voice 
     for voice in voices:
@@ -127,6 +126,5 @@ if __name__ == "__main__":
     speak_text(res)
 
 # STEP 3 text to speech TTS
-# For Mac, If you face error related to "pyobjc" when running the `init()` method :
-# Install 9.0.1 version of pyobjc : "pip install pyobjc>=9.0.1"
+# For Mac, if there any error try to run this command on terminal (pip install "pyobjc>=9.0.1") should be fine
 
