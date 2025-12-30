@@ -14,7 +14,8 @@ Search for “OpenAI API” on Google to create an account and obtain your API k
 
 # Anime GPT
 
-![Anime GPT Thumbnail](./AnimeGPT.png)
+![Anime GPT Thumbnail](![AnimeGPT](https://github.com/user-attachments/assets/7966dc0f-4472-41e7-9bb5-104204d7b5d6)
+)
 
 ---
 
